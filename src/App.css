@@ -1,0 +1,81 @@
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #747bff);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafb);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded-border {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+.rounded-border-output {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.dot-border {
+  width: 130px;
+  height: 130px;
+  border: 4px dotted #333333;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot-border-output {
+  width: 130px;
+  height: 130px;
+  border: 4px dotted #0F9D58;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mergeIcon{
+  padding-top: 150px;
+}
+.insert-pdf{
+  opacity: 30%;
+}
+.trash-icon{
+  cursor: pointer;
+}
+
+.file-name {
+  flex-basis: calc(50% - 3em); /* Calculate width for each item, accounting for margins */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1em;
+  margin-top: 1px;
+  margin-left: 2em;
+}

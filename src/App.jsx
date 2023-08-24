@@ -93,18 +93,22 @@ function App() {
           </div>
       </div>
         <div className="row">
-                {pdf1 && <p className="file-name">{pdf1}</p>}
-                {pdf2 &&  <p className="file-name">{pdf2}</p>}
+                {pdf1 && <input type="text" id="fname" className="fname" value={pdf1} disabled={true}/>}
+                {pdf2 && <input type="text" id="fname" className="fname" value={pdf2} disabled={true}/>}
+
         </div>
 
-        {pdf1 && pdf2 &&
+        {pdf1 && pdf2 &&<>
             <div className="rounded-border-output">
             <div className="dot-border-output">
                 <div className="trash-icon">
                     {pdf1 && pdf2 ? <Icon icon={filePdf} color="#0F9D58" width={70} onClick={merge_pdf}/>:<Icon icon={filePdf} width={70}/>}
                 </div>
             </div>
+
         </div>
+            <p>Click To Merge!</p>
+            </>
         }
 
         {typeErr && <p color="#DB4437">Invalid Format</p>}

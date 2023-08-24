@@ -70,12 +70,11 @@ footer {
   cursor: pointer;
 }
 
-.file-name {
-  flex-basis: calc(50% - 3em); /* Calculate width for each item, accounting for margins */
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-bottom: 1em;
-  margin-top: 1px;
-  margin-left: 2em;
+.fname{
+  text-align: center;
+  width: 200px;
+  max-width: 300px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
 }
